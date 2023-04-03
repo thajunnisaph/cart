@@ -63,7 +63,7 @@ const Cart = () => {
             <ul className="cartitems">
               {cartItems.map((item) => (
                 <li className="cart-item">
-                  <div>git remote add origin https://github.com/thajunnisaph/cart.git 
+                  <div>
                     <img src={item.image} alt={item.name} />
                     <h6>Distributer Name - {item.distributername}</h6>
                     <h5>{item.name}</h5>
