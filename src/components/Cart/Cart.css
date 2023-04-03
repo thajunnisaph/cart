@@ -1,0 +1,94 @@
+.cartitems {
+  list-style: none;
+  overflow: auto;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 3rem 2rem;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d1cbd6;
+  padding: 0.7rem 0;
+  margin: 1rem 0;
+}
+
+.cart-item h5 {
+  margin: 0 0 0.5rem 0;
+  color: #363636;
+}
+
+.summary {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+.cart {
+  display: inline-flex;
+  
+}
+
+.price {
+  font-weight: bold;
+  color: #9c8075;
+}
+
+.amount {
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  color: #363636;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+.cartpage{
+  margin:1.8rem;
+}
+
+@media (min-width: 760px) {
+  .actions {
+    flex-direction: row;
+  }
+}
+.delete-icon {
+  cursor: pointer;
+  min-width: 18px;
+}
+
+.cart-item button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: rgb(43, 101, 226);
+  width: 2rem;
+  text-align: center;
+  border: 1px solid rgb(43, 122, 226);
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin: 0.25rem;
+}
+.cart-item img {
+  width: 120px;
+  height: 80px;
+}
+
+.cart-item button:hover,
+.cart-item button:active {
+  background-color: blue;
+  color: white;
+}
+.cart span {
+  font: normal;
+  font-size: 1rem;
+}
